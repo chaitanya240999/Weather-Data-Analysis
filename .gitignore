@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data — download from Kaggle instead of committing
+*.csv
+*.parquet
+*.pkl
+*.joblib
+
+# Secrets — never commit API keys
+.env
+*.key
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
